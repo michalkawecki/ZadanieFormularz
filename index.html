@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html lang="pl">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Formularz zgłoszeniowy</title>
+
+</head>
+
+<body>
+<form action="https://formspree.io/kawecki45@gmail.com" method="POST">
+
+        <label for="imie">Imię:</label>
+        <input type="text" id="imie" name="imie"><br>
+        <label for="nazwisko">Nazwisko:</label>
+        <input type="text" id="nazwisko" name="nazwisko"><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br>
+        <label for="tel">Telefon:</label>
+        <input type="tel" id="tel" name="telefon"><br>
+        <label for="miasto">Wybierz miasto:</label>
+        <select name="miasto" id="miasto">
+            <option value="krakow">Kraków</option>
+            <option value="warszawa">Warszawa</option>
+            <option value="gdansk">Gdańsk</option>
+        </select><br>
+        <label for="woman"><input type="radio" name="gender" id="woman">kobieta</label>
+        <label for="man"><input type="radio" name="gender" id="man">mezczyzna</label><br>
+        <label for="msg">Wpisz Wiadomość</label><br>
+        <textarea name="text" id="msg" cols="30" rows="10"></textarea><br>
+        <label for="zgoda"><input type="checkbox" id="zgoda" name="zgoda">Zgadzam się na przetwarzanie danych osobowych</label><br>
+        <input type="submit" value="Wyślij">
+
+    </form>
+
+</body>
+
+</html>
